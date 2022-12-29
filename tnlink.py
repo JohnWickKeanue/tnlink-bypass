@@ -1,6 +1,6 @@
 import requests
-
-url = "https://tnlink.in/SCPI"  #@param {type:"string"}
+print("Enter your tnlink url:")
+url = input()  #@param {type:"string"}
 
 
 def tnlink(url):
